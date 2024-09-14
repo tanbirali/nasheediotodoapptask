@@ -1,4 +1,3 @@
-import { status } from "@/store/todo-store";
 import { useTodoStore } from "@/store/todo-store-providers";
 import React, { useState } from "react";
 type Props = {

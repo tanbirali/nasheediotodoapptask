@@ -1,4 +1,3 @@
-import { create } from "zustand";
 import { createStore } from "zustand/vanilla";
 
 export type todo = {
