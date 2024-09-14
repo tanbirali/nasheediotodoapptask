@@ -25,7 +25,7 @@ export type todoActions = {
 export type todoStore = todoState & todoActions;
 export const initTodoStore = (): todoState => {
   return {
-    todos: [{ id: 1, title: "", status: status.pending }],
+    todos: [{ id: 1, title: "Build a todo app", status: status.pending }],
   };
 };
 export const defaultInitState: todoState = {
